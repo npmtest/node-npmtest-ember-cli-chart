@@ -1,4 +1,7 @@
-# test coverage for  [ember-cli-chart (v3.1.0)](https://github.com/aomran/ember-cli-chart)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-chart.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-chart) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-chart.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-chart)
+# npmtest-ember-cli-chart
+
+#### basic test-coverage for  [ember-cli-chart (v3.2.0)](https://github.com/aomran/ember-cli-chart)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-chart.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-chart) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-chart.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-chart)
+
 #### Ember component for ChartJS
 
 [![NPM](https://nodei.co/npm/ember-cli-chart.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ember-cli-chart)
@@ -39,48 +42,45 @@
         "url": "https://github.com/aomran/ember-cli-chart/issues"
     },
     "dependencies": {
-        "ember-cli-babel": "^5.1.6"
+        "ember-cli-babel": "^5.1.7"
     },
     "description": "Ember component for ChartJS",
     "devDependencies": {
-        "broccoli-asset-rev": "^2.4.2",
-        "chart.js": "^2.2.1",
-        "ember-ajax": "0.7.1",
-        "ember-browserify": "1.1.11",
-        "ember-cli": "2.5.0",
-        "ember-cli-app-version": "^1.0.0",
-        "ember-cli-dependency-checker": "^1.2.0",
-        "ember-cli-htmlbars": "^1.0.3",
-        "ember-cli-htmlbars-inline-precompile": "^0.3.1",
-        "ember-cli-inject-live-reload": "^1.4.0",
-        "ember-cli-jshint": "^1.0.0",
-        "ember-cli-qunit": "^1.4.0",
-        "ember-cli-release": "0.2.8",
+        "broccoli-asset-rev": "^2.4.5",
+        "ember-ajax": "^2.4.1",
+        "ember-cli": "2.12.1",
+        "ember-cli-dependency-checker": "^1.3.0",
+        "ember-cli-eslint": "^3.0.0",
+        "ember-cli-htmlbars": "^1.1.1",
+        "ember-cli-htmlbars-inline-precompile": "^0.3.6",
+        "ember-cli-inject-live-reload": "^1.4.1",
+        "ember-cli-qunit": "^3.1.0",
+        "ember-cli-shims": "^1.0.2",
         "ember-cli-sri": "^2.1.0",
         "ember-cli-uglify": "^1.2.0",
-        "ember-data": "^2.5.0",
         "ember-disable-prototype-extensions": "^1.1.0",
         "ember-export-application-global": "^1.0.5",
-        "ember-load-initializers": "^0.5.1",
+        "ember-load-initializers": "^0.6.0",
         "ember-resolver": "^2.0.3",
-        "ember-try": "^0.2.2",
-        "loader.js": "^4.0.1"
+        "ember-source": "~2.12.0",
+        "ember-welcome-page": "^2.0.2",
+        "loader.js": "^4.2.3"
     },
     "directories": {
         "doc": "doc",
         "test": "tests"
     },
     "dist": {
-        "shasum": "cbf118d1486191a3990909221acd01caaaf70973",
-        "tarball": "https://registry.npmjs.org/ember-cli-chart/-/ember-cli-chart-3.1.0.tgz"
+        "shasum": "3fc3f865101ce397230448138215c9b7d22a0710",
+        "tarball": "https://registry.npmjs.org/ember-cli-chart/-/ember-cli-chart-3.2.0.tgz"
     },
     "ember-addon": {
         "configPath": "tests/dummy/config"
     },
     "engines": {
-        "node": ">= 0.10.0"
+        "node": ">= 4"
     },
-    "gitHead": "61a71f4fe9c170ae77241306c42532e02aca8eb8",
+    "gitHead": "f658027d3a74e19b566351b2be7ae0cb12458680",
     "homepage": "https://github.com/aomran/ember-cli-chart",
     "keywords": [
         "ember-addon"
@@ -100,9 +100,10 @@
     "scripts": {
         "build": "ember build",
         "start": "ember server",
-        "test": "ember try:testall"
+        "test": "ember try:each"
     },
-    "version": "3.1.0"
+    "version": "3.2.0",
+    "bin": {}
 }
 ```
 
